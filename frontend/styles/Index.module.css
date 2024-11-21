@@ -1,0 +1,35 @@
+/* Scoped class for input fields */
+.formInput {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Scoped class for buttons */
+.button {
+    background-color: #0066cc;
+    color: white;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+/* Scoped class for links */
+.link {
+    color: #0066cc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
